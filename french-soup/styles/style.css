@@ -2,8 +2,64 @@
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+header {
+  height: 670px;
+  width: 100%;
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+h1{
+  text-align: center;
+  width: 100%;
+  font-weight: lighter;
+  font-size: 5em;
+}
+h2{
+  font-family: 'sans-serif';
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.general{
+  padding-top: 70px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: justify;
+}
+img{
+  margin: auto;
+  display: block;
+  width: 50%;
+  height: 50%;
+  padding-bottom: 50px;
+}
+p{
+  font-family: 'sans-serif';
+  font-size: 1.3rem;
+  font-weight: 100;
+  color: rgba(31, 30, 32, .8) ;
+}
+ul{
+  list-style-type: none;
+  padding-left: 20px;
+}
+li{
+  font-weight: 100;
+  font-size: 1.2rem;
+  color: rgba(31, 30, 32, .8);
+  line-height: 30px;
+}
+ol{
+  margin-bottom: 90px;
 }
